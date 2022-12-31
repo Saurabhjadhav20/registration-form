@@ -1,0 +1,117 @@
+body {
+    /* background-color: blanchedalmond; */
+    background: linear-gradient(to top right, #2d0de1 0%, #37b902 100%);
+    /* background: linear-gradient(to top right, #37b902 0%,#2d0de1 100%); */
+
+    text-align:center;
+ 
+}
+h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    /* background-color: #d873fd; */
+    background-color: #99a0c1;
+    color: black;
+}
+
+table.list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    /* border: 5px solid #e985e2; */
+    border: 5px solid #07227a;
+    text-align: left;
+    padding: 8px 15px;
+    /* background-color: rgb(241 208 255); */
+    background-color: rgb(178 207 231);
+    color: #000000;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #d0f1bf;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:yellow;
+    border-radius: 1.5cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: rgb(6, 24, 187);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #30b8d7;
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid #8181dd;
+}
+
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-part {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+button {
+    /* background: #fb50de; */
+    background-color: #30b8d7;
+    color: black;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}

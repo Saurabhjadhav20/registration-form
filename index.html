@@ -1,0 +1,69 @@
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REGISTRATION FORM </title>
+</head>
+
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">STUDENT NAME :</label>
+                            <input type="text" placeholder="Enter Student Name" name="studentName" id="studentName">
+                        </div>
+                        <div>
+                            <label for="Number">ROLL NO. :</label>
+                            <input placeholder="Number" type="text" name="Number" id="Number">
+                        </div>
+                        <div>
+                            <label for="collegeName">COLLEGE NAME :</label>
+                            <input placeholder="Enter College Name" type="text" name="collegeName" id="collegeName">
+                        </div>
+                        <div>
+                            <label for="Email">EMAIL ID :</label>
+                            <input placeholder="Enter the Email" type="text" name="Email" id="Email">
+                        </div>
+                        <div>
+                            <label for="Address">Address :</label>
+                            <input placeholder="Enter the Address" type="text" name=Address" id="Address">
+                        </div>
+                        
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                    <td>
+                        <table class="list" id="storeList">
+                            <thead>
+                                <tr>
+                                    <th>Student Name|</th>
+                                    <th>Roll No.|</th>
+                                    <th>College Name|</th>
+                                    <th>Email|</th>
+                                    <th>Address</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </td>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js">
+        </script>
+
+    </div>
+</body>
+
+</html>
